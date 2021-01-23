@@ -30,7 +30,7 @@ twitter_username: TheRealNerdyDad
 github_username:  TheRealNerdyDad
 
 # Build settings
-theme: jekyll-theme-leap-day
+theme: minima
 plugins:
   - jekyll-feed
 
