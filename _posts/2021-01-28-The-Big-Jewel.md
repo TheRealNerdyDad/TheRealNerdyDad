@@ -2,7 +2,7 @@
 layout: post
 title:  "The Big Jewel"
 date:   2021-01-28 17:05:49 -0600
-categories: PowerShell
+categories: General
 ---
 
 What is it?
