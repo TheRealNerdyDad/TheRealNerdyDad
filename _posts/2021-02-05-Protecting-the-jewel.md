@@ -11,6 +11,7 @@ There are 2 big things that IT people do to protect their data, and they go hand
 
 Least Privileges (aka JITJEA, Just-In-Time, Just-Enough-Access)
 Backups
+
 Least Privileges
 Does you remember when Edward Snowden released the NSA documents back in 2013?   Regardless of which political party you most identify with, Snowden made big news and made companies rethink their internal IT security strategies.   Basically, he had access to a LOT of documents, some he probably didn’t need access to.   Was this his fault?  No, it was the NSA’s for giving him access to all of the jewels instead of limiting his access to just what he needed to know and needed access to.
 
