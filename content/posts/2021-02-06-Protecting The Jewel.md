@@ -1,6 +1,6 @@
 ---
 title: Protecting The Jewel
-date: 2021-02-06 17:00:00 -500
+date: 2021-02-06T17:00:00-05:00
 categories: [general,it]
 tags: [general,it,security]
 ---

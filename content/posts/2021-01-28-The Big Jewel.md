@@ -1,6 +1,6 @@
 ---
 title: The Big Jewel
-date: 2021-01-28 17:00:00 -500
+date: 2021-01-28T17:00:00-05:00
 categories: [general,it]
 tags: [general,it,security]
 ---

@@ -1,6 +1,6 @@
 ---
 title: What is Virtualization?
-date: 2021-01-22 17:00:00 -500
+date: 2021-01-22T17:00:00-05:00
 categories: [general,virtualization]
 tags: [virtualization]
 ---

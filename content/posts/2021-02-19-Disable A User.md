@@ -1,6 +1,6 @@
 ---
 title: Disable A User
-date: 2021-02-12 17:00:00 -500
+date: 2021-02-12T17:00:00-05:00
 categories: [general,it,activedirectory,powershell]
 tags: [general,it,activedirectory,powershell,user-administration,security]
 ---
