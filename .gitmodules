@@ -4,3 +4,15 @@
 [submodule "themes/terminal"]
 	path = themes/terminal
 	url = https://github.com/panr/hugo-theme-terminal.git
+[submodule "themes/themes/minimo"]
+	path = themes/themes/minimo
+	url = https://github.com/MunifTanjim/minimo
+[submodule "themes/npqhugo"]
+	path = themes/npqhugo
+	url = https://github.com/saadsolimanxyz/npqhugo
+[submodule "themes/hugo-theme-bootstrap"]
+	path = themes/hugo-theme-bootstrap
+	url = https://github.com/razonyang/hugo-theme-bootstrap
+[submodule "themes/hello-friend"]
+	path = themes/hello-friend
+	url = https://github.com/panr/hugo-theme-hello-friend.git
