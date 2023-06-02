@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Disable A User | NerdyDad</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Disable A User It’s hard to create a user, but its REALLY easy to disable a user’s account. That is exactly what this script does. Well…it doesn’t “disable” the user’s account, but it does make it impossible for the user to login to the network without help from IT. Basically, this script will ask 4 things from you. It will ask you who you are disabling, who their manager is, who you are, and a password to change the user’s account to.">
+    <meta name="generator" content="Hugo 0.112.5">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Disable A User" />
+<meta property="og:description" content="Disable A User It’s hard to create a user, but its REALLY easy to disable a user’s account. That is exactly what this script does. Well…it doesn’t “disable” the user’s account, but it does make it impossible for the user to login to the network without help from IT. Basically, this script will ask 4 things from you. It will ask you who you are disabling, who their manager is, who you are, and a password to change the user’s account to." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://nerdydad.me/posts/2021-02-19-disable-a-user/" /><meta property="article:section" content="posts" />
+
+
+<meta itemprop="name" content="Disable A User">
+<meta itemprop="description" content="Disable A User It’s hard to create a user, but its REALLY easy to disable a user’s account. That is exactly what this script does. Well…it doesn’t “disable” the user’s account, but it does make it impossible for the user to login to the network without help from IT. Basically, this script will ask 4 things from you. It will ask you who you are disabling, who their manager is, who you are, and a password to change the user’s account to.">
+
+<meta itemprop="wordCount" content="407">
+<meta itemprop="keywords" content="general,it,activedirectory,powershell,user-administration,security," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Disable A User"/>
+<meta name="twitter:description" content="Disable A User It’s hard to create a user, but its REALLY easy to disable a user’s account. That is exactly what this script does. Well…it doesn’t “disable” the user’s account, but it does make it impossible for the user to login to the network without help from IT. Basically, this script will ask 4 things from you. It will ask you who you are disabling, who their manager is, who you are, and a password to change the user’s account to."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        NerdyDad
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Disable A User</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="disable-a-user">Disable A User</h1>
+<p>It’s hard to create a user, but its REALLY easy to disable a user’s account. That is exactly what this script does. Well…it doesn’t “disable” the user’s account, but it does make it impossible for the user to login to the network without help from IT. Basically, this script will ask 4 things from you. It will ask you who you are disabling, who their manager is, who you are, and a password to change the user’s account to. It will then create an email to be sent to you and HR, informing HR of who has changed the user’s password, and when. That way they can be assured that all technical resources owned by the company are kept safe as the user is leaving the network, if not the company.</p>
+<p>This script assumes a few things:</p>
+<ol>
+<li>You at least have Exchange Admin rights in order to connect and send the email.</li>
+<li>You have Domain Admin rights in order to change the user’s password.</li>
+<li>You have 2 distribution groups (HR &amp; IT) with the necessary personnel in each group.</li>
+<li>Your Exchange server is on premises.</li>
+</ol>
+<p>As usual, everything is commented and sterilized for your usage.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Import-Module activedirectory
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$un = Read-Host <span style="color:#e6db74">&#34;Who are we disabling today? (Login Credentials)&#34;</span> <span style="color:#75715e">#username</span>
+</span></span><span style="display:flex;"><span>$man = Read-Host <span style="color:#e6db74">&#34;Who are we forwarding mail to? (Login Credentials)&#34;</span> <span style="color:#75715e">#manager&#39;s username</span>
+</span></span><span style="display:flex;"><span>$auth = Read-Host <span style="color:#e6db74">&#34;Who are you? (Login Credentials)&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Resets the old user&#39;s password</span>
+</span></span><span style="display:flex;"><span>Set-ADAccountPassword -Identity $un -Reset -NewPassword (Read-Host -AsSecureString <span style="color:#e6db74">&#34;Account Password&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Connects to the Exchange box, forwards the users email account to their supervisor/manager, then disconnects from the Exchange box</span>
+</span></span><span style="display:flex;"><span>$mail = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri http<span style="color:#960050;background-color:#1e0010">:</span>//Exchange/powershell -name Exchange -Authentication Kerberos -Credential $cred
+</span></span><span style="display:flex;"><span>Import-PSSession $mail -WarningAction SilentlyContinue | Out-Null
+</span></span><span style="display:flex;"><span>Set-Mailbox $un -ForwardingAddress $man -RemovePicture <span style="color:#75715e">#Sets the forwarding address to the manager and removes their picture</span>
+</span></span><span style="display:flex;"><span>Remove-PSSession -Session $mail <span style="color:#75715e">#Disconnects from the Exchange box</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$dt = get-date <span style="color:#75715e">#Gets Date &amp; Time</span>
+</span></span><span style="display:flex;"><span>$authn = Get-ADUser $auth -Properties DisplayName | select -ExpandProperty DisplayName <span style="color:#75715e">#Gets the administrators name</span>
+</span></span><span style="display:flex;"><span>$unn = Get-ADUser $un -Properties DisplayName | select -ExpandProperty DisplayName <span style="color:#75715e">#Gets the disabled users name</span>
+</span></span><span style="display:flex;"><span>$mann = Get-ADUser $man -Properties DisplayName | select -ExpandProperty DisplayName <span style="color:#75715e">#Gets the managers name</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$report = <span style="color:#e6db74">&#34;Human Resources,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">The user account for </span>$unn<span style="color:#e6db74"> (</span>$un<span style="color:#e6db74">) has been disabled from the company network as of </span>$dt<span style="color:#e6db74">. All email messages will be forwarded to </span>$mann<span style="color:#e6db74"> (</span>$man<span style="color:#e6db74">) for now on.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Regards,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span>$authn<span style="color:#e6db74"> (</span>$auth<span style="color:#e6db74">)&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Send-MailMessage -To HR@MyCompany.com, IT@MyCompany.com -Subject <span style="color:#e6db74">&#34;Disconnected User Report&#34;</span> -Body $report -From IT@MyCompany.com -SmtpServer Exchange
+</span></span></code></pre></div><ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/general/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">general</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/it/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">it</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/activedirectory/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">activedirectory</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/powershell/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">powershell</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/user-administration/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">user-administration</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/security/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">security</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/2021-02-06-creating-a-new-user/">Creating A New User</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2021-02-06-protecting-the-jewel/">Protecting The Jewel</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2021-01-28-the-big-jewel/">The Big Jewel</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2021-01-22-what-is-it/">What is IT?</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://nerdydad.me/" >
+    &copy;  NerdyDad 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

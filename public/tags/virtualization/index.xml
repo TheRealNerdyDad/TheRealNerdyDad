@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>virtualization on NerdyDad</title>
+    <link>http://nerdydad.me/tags/virtualization/</link>
+    <description>Recent content in virtualization on NerdyDad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://nerdydad.me/tags/virtualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Virtualization?</title>
+      <link>http://nerdydad.me/posts/2021-01-22-what-is-virtualization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nerdydad.me/posts/2021-01-22-what-is-virtualization/</guid>
+      <description>What is Virtualization? Virtualization is the abstraction of the operating system away from the hardware so that other operating systems may reside on the same hardware as the original operating system. The software that does the abstracting is called the hypervisor. It is not an operating system of itself. Instead, the hypervisor will gather the hardware logically and divide up that hardware as resources to the guest operating systems as needed.</description>
+    </item>
+    
+  </channel>
+</rss>

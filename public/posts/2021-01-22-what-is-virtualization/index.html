@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>What is Virtualization? | NerdyDad</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="What is Virtualization? Virtualization is the abstraction of the operating system away from the hardware so that other operating systems may reside on the same hardware as the original operating system. The software that does the abstracting is called the hypervisor. It is not an operating system of itself. Instead, the hypervisor will gather the hardware logically and divide up that hardware as resources to the guest operating systems as needed.">
+    <meta name="generator" content="Hugo 0.112.5">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="What is Virtualization?" />
+<meta property="og:description" content="What is Virtualization? Virtualization is the abstraction of the operating system away from the hardware so that other operating systems may reside on the same hardware as the original operating system. The software that does the abstracting is called the hypervisor. It is not an operating system of itself. Instead, the hypervisor will gather the hardware logically and divide up that hardware as resources to the guest operating systems as needed." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://nerdydad.me/posts/2021-01-22-what-is-virtualization/" /><meta property="article:section" content="posts" />
+
+
+<meta itemprop="name" content="What is Virtualization?">
+<meta itemprop="description" content="What is Virtualization? Virtualization is the abstraction of the operating system away from the hardware so that other operating systems may reside on the same hardware as the original operating system. The software that does the abstracting is called the hypervisor. It is not an operating system of itself. Instead, the hypervisor will gather the hardware logically and divide up that hardware as resources to the guest operating systems as needed.">
+
+<meta itemprop="wordCount" content="1004">
+<meta itemprop="keywords" content="virtualization," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="What is Virtualization?"/>
+<meta name="twitter:description" content="What is Virtualization? Virtualization is the abstraction of the operating system away from the hardware so that other operating systems may reside on the same hardware as the original operating system. The software that does the abstracting is called the hypervisor. It is not an operating system of itself. Instead, the hypervisor will gather the hardware logically and divide up that hardware as resources to the guest operating systems as needed."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        NerdyDad
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">What is Virtualization?</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="what-is-virtualization">What is Virtualization?</h1>
+<p>Virtualization is the abstraction of the operating system away from the hardware so that other operating systems may reside on the same hardware as the original operating system. The software that does the abstracting is called the hypervisor. It is not an operating system of itself. Instead, the hypervisor will gather the hardware logically and divide up that hardware as resources to the guest operating systems as needed. No one operating system will utilize all of one hardware resource.</p>
+<p>Before we get into the main players out there right now, we first need to cover another aspect of hypervisors. There are currently 2 types of hypervisors:</p>
+<ul>
+<li>Type 1 hypervisors are installed directly on the hard drive and is booted from the BIOS/UEFI.</li>
+<li>Type 2 hypervisors are actually programs that runs on a conventional operating system (such as Microsoft’s Windows 10 or a Linux desktop distro). When the main operating system is booted, the user is able to open the program will utilize the main computer’s hardware available to it to give to guest operating systems. Once the program is loaded does the possibility of utilizing a guest operating system available.</li>
+</ul>
+<h2 id="type-1-hypervisors">Type-1 Hypervisors</h2>
+<p>There are a few players in both of these spaces that are available. In the Type 1 category, we have <a href="https://www.vmware.com/products/vsphere-hypervisor.html">VMware’s vSphere (ESXi)</a>, <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-hyper-v-server-2019">Microsoft’s Hyper-V</a>, Linux <a href="https://www.qemu.org/">QEMU</a>/<a href="https://www.linux-kvm.org/page/Main_Page">KVM</a>, <a href="https://xenproject.org/">Xen</a> and <a href="https://www.citrix.com/products/citrix-hypervisor/">XenServer</a>.</p>
+<h3 id="vmwares-vsphere-esxihttpswwwvmwarecomproductsvsphere-hypervisorhtml"><a href="https://www.vmware.com/products/vsphere-hypervisor.html">VMware’s vSphere (ESXi)</a></h3>
+<p>VMware&rsquo;s vSphere (ESXi) is typically your most popular flavor as it has been in the game for a very long time. It is capable of adding virtual hardware to the guest machines while the machines is still on, such as disk space, memory, and CPUs. A critical feature if you cannot withstand down time but have applications that are starving for resources. If you use the free version of ESXi, then you are restricted to just using their web interface, which blocks you from their API, and prevents you from being able to utilize other 3rd party applications for such things as automation, such as Terraform, or backups, such as Veeam or Unitrends.</p>
+<h3 id="microsofts-hyper-vhttpswwwmicrosoftcomen-usevalcenterevaluate-hyper-v-server-2019"><a href="https://www.microsoft.com/en-us/evalcenter/evaluate-hyper-v-server-2019">Microsoft’s Hyper-V</a></h3>
+<p>Microsoft&rsquo;s Hyper-V is right under VMware for the next contender because the companies are already familiar with Microsoft and Windows Server since Windows NT. Hyper-V does not allow the addition of adding components to the guest operating systems while it is running, but does allow you to interface with the system by PowerShell and Windows Server Manager. There is a <a href="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-server-2016">free version</a> of Hyper-V where it is just the <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-hyper-v-server-2016">hypervisor</a> and no base Windows Server system. If you were to install from Windows Server 2016, then it will be a 180-day trial and you are only limited to 2 instances of Windows. The host operating system (which would be installed on the server from a CD), deploy Hyper-V, and the deploy your guest server. I do not suggest the second, but recommend the first if you are going to deploy Hyper-V because of business costs. If you own a computer with Windows 10 Pro, then you can easily turn your normal computer into a Type-1 hypervisor by enabling the Hyper-V role on your computer. This changes how things work underneath the hood of Windows and, when you reboot, you are actually loading Hyper-V first, and then loading your original computer as a guest.</p>
+<h3 id="linux-qemuhttpswwwqemuorgkvmhttpswwwlinux-kvmorgpagemain_page">Linux <a href="https://www.qemu.org/">QEMU</a>/<a href="https://www.linux-kvm.org/page/Main_Page">KVM</a></h3>
+<p>Linux QEMU/KVM is one of the varieties that Linux distributions offer. Typically these are offered as part of the distribution of your choice by installing your favorite distribution first (minimal install is what is recommended), update (as usual), then <code>groupinstall virtualization</code> in accordance with your distribution of choice. Typically the cost here is free, except for the labor/expertise that would be put into this project. Support is also typically not apart of this solution, unless being purchased from a 3rd party or in-house.</p>
+<h3 id="xenhttpsxenprojectorg"><a href="https://xenproject.org/">Xen</a></h3>
+<p>Xen is its own hypervisor that was developed in conjunction with The Linux Foundation. It is used more in cloud computing, but is still a hypervisor in its own right, totally free.</p>
+<h3 id="xenserverhttpswwwcitrixcomproductscitrix-hypervisor"><a href="https://www.citrix.com/products/citrix-hypervisor/">XenServer</a></h3>
+<p>XenServer is its own type of hypervisor, typically supported within its own circles at XenServer.org, but not typically in the main Linux distribution circles. It was forked (source code taking a different direction) after The Linux Foundation laid claim to Xen in 2013. Citrix at one time had took advantage of XenServer as a marketing exploit and sold annual licenses on a per socket basis.</p>
+<h2 id="type-2-hypervisors">Type-2 Hypervisors</h2>
+<p>Type 2 Hypervisors are, as mentioned before, programs already installed on a host OS, such as Windows 10 or MacOS. Examples of these includes:</p>
+<h3 id="vmware-workstationhttpswwwvmwarecomproductsworkstation-proworkstation-pro-evaluationhtml"><a href="https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html">VMware Workstation</a></h3>
+<p>You can download a trial of this and begin using it. However, after the trial period is over, guest machines that are turned off at the point that the trial period is over or after can’t be booted. In order to get around this problem, you would need to purchase a license from a reseller VMware. Once purchased, guest machines can be powered on and off as you need.
+Oracle VirtualBox</p>
+<h3 id="virtualboxhttpswwwvirtualboxorg"><a href="https://www.virtualbox.org/">VirtualBox</a></h3>
+<p>VirtualBox is typically best to begin learning the basics of virtualization and is free (only if you don’t have Windows 10 Pro).</p>
+<p>There is no one technology or product better than the other. Each depends on your situation. Microsoft Hyper-V Server 2016 is free and allows you to deploy as many guest servers as you want and allows you to backup its guest machines, but does not have a direct GUI, like VMWare’s ESXi/vSphere has. However, VMware’s ESXi/vSphere’s free offering does not allow you to interface with its API’s unless you purchase licenses. Linux’s QEMU/KVM is totally free but requires familiarity with a Linux server distribution of choice (Fedora, Red Hat, Debian, Ubuntu, etc.).</p>
+<p>Type 1 Hypervisors are typically recommended for production usage (companies using it to support other systems to make a profit) while Type 2 Hypervisors are typically used by people that are wanting to learn about virtualization or another operating system than the one typically on their main system, such as running a Fedora desktop OS on an Windows 10 box.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/virtualization/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">virtualization</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://nerdydad.me/" >
+    &copy;  NerdyDad 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
