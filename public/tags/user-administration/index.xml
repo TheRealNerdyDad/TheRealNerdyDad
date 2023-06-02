@@ -2,27 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>user-administration on NerdyDad</title>
-    <link>http://nerdydad.me/tags/user-administration/</link>
+    
+    
+    
+    <link>https://NerdyDad.me/tags/user-administration/</link>
     <description>Recent content in user-administration on NerdyDad</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://nerdydad.me/tags/user-administration/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Feb 2021 17:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://NerdyDad.me/tags/user-administration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Creating A New User</title>
-      <link>http://nerdydad.me/posts/2021-02-06-creating-a-new-user/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/posts/2021-02-06-creating-a-new-user/</link>
+      <pubDate>Fri, 12 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/posts/2021-02-06-creating-a-new-user/</guid>
-      <description>Creating A New User User Management is important in any organization, especially when they have ActiveDirectory deployed in their environment. Any way of automation can be very helpful in saving time, reducing errors, and making sure that all of the tasks that are involved with creating a user are completed.
-I understand that this whole script will not suite everybody, but I know that there are pieces in here that are going to be more valuable to some than others.</description>
+      <guid>https://NerdyDad.me/posts/2021-02-06-creating-a-new-user/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Creating A New User#User Management is important in any organization, especially when they have ActiveDirectory deployed in their environment. Any way of automation can be very helpful in saving time, reducing errors, and making sure that all of the tasks that are involved with creating a user are completed.
+I understand that this whole script will not suite everybody, but I know that there are pieces in here that are going to be more valuable to some than others.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>Disable A User</title>
-      <link>http://nerdydad.me/posts/2021-02-19-disable-a-user/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/posts/2021-02-19-disable-a-user/</link>
+      <pubDate>Fri, 12 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/posts/2021-02-19-disable-a-user/</guid>
-      <description>Disable A User It’s hard to create a user, but its REALLY easy to disable a user’s account. That is exactly what this script does. Well…it doesn’t “disable” the user’s account, but it does make it impossible for the user to login to the network without help from IT. Basically, this script will ask 4 things from you. It will ask you who you are disabling, who their manager is, who you are, and a password to change the user’s account to.</description>
+      <guid>https://NerdyDad.me/posts/2021-02-19-disable-a-user/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Disable A User#It’s hard to create a user, but its REALLY easy to disable a user’s account. That is exactly what this script does. Well…it doesn’t “disable” the user’s account, but it does make it impossible for the user to login to the network without help from IT. Basically, this script will ask 4 things from you. It will ask you who you are disabling, who their manager is, who you are, and a password to change the user’s account to.
+          
+        
+        </description>
     </item>
     
   </channel>

@@ -2,71 +2,156 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on NerdyDad</title>
-    <link>http://nerdydad.me/tags/</link>
+    
+    
+    
+    <link>https://NerdyDad.me/tags/</link>
     <description>Recent content in Tags on NerdyDad</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://nerdydad.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Feb 2021 17:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://NerdyDad.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>activedirectory</title>
-      <link>http://nerdydad.me/tags/activedirectory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/tags/activedirectory/</link>
+      <pubDate>Fri, 12 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/tags/activedirectory/</guid>
-      <description></description>
+      <guid>https://NerdyDad.me/tags/activedirectory/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
       <title>general</title>
-      <link>http://nerdydad.me/tags/general/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/tags/general/</link>
+      <pubDate>Fri, 12 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/tags/general/</guid>
-      <description></description>
+      <guid>https://NerdyDad.me/tags/general/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
       <title>it</title>
-      <link>http://nerdydad.me/tags/it/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/tags/it/</link>
+      <pubDate>Fri, 12 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/tags/it/</guid>
-      <description></description>
+      <guid>https://NerdyDad.me/tags/it/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
       <title>powershell</title>
-      <link>http://nerdydad.me/tags/powershell/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/tags/powershell/</link>
+      <pubDate>Fri, 12 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/tags/powershell/</guid>
-      <description></description>
+      <guid>https://NerdyDad.me/tags/powershell/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
       <title>security</title>
-      <link>http://nerdydad.me/tags/security/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/tags/security/</link>
+      <pubDate>Fri, 12 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/tags/security/</guid>
-      <description></description>
+      <guid>https://NerdyDad.me/tags/security/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
       <title>user-administration</title>
-      <link>http://nerdydad.me/tags/user-administration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/tags/user-administration/</link>
+      <pubDate>Fri, 12 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/tags/user-administration/</guid>
-      <description></description>
+      <guid>https://NerdyDad.me/tags/user-administration/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
     <item>
       <title>virtualization</title>
-      <link>http://nerdydad.me/tags/virtualization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/tags/virtualization/</link>
+      <pubDate>Fri, 22 Jan 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/tags/virtualization/</guid>
-      <description></description>
+      <guid>https://NerdyDad.me/tags/virtualization/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
   </channel>

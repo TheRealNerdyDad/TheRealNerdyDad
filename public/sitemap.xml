@@ -2,48 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://nerdydad.me/tags/activedirectory/</loc>
+    <loc>https://NerdyDad.me/tags/activedirectory/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/categories/activedirectory/</loc>
+    <loc>https://NerdyDad.me/categories/activedirectory/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/categories/</loc>
+    <loc>https://NerdyDad.me/categories/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/posts/2021-02-06-creating-a-new-user/</loc>
+    <loc>https://NerdyDad.me/posts/2021-02-06-creating-a-new-user/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/posts/2021-02-19-disable-a-user/</loc>
+    <loc>https://NerdyDad.me/posts/2021-02-19-disable-a-user/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/tags/general/</loc>
+    <loc>https://NerdyDad.me/tags/general/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/categories/general/</loc>
+    <loc>https://NerdyDad.me/categories/general/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/tags/it/</loc>
+    <loc>https://NerdyDad.me/tags/it/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/categories/it/</loc>
+    <loc>https://NerdyDad.me/categories/it/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/</loc>
+    <loc>https://NerdyDad.me/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/posts/</loc>
+    <loc>https://NerdyDad.me/posts/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/tags/powershell/</loc>
+    <loc>https://NerdyDad.me/tags/powershell/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/categories/powershell/</loc>
+    <loc>https://NerdyDad.me/categories/powershell/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/posts/2021-02-06-protecting-the-jewel/</loc>
+    <loc>https://NerdyDad.me/tags/security/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/tags/security/</loc>
+    <loc>https://NerdyDad.me/tags/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/tags/</loc>
+    <loc>https://NerdyDad.me/tags/user-administration/</loc>
+    <lastmod>2021-02-12T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/posts/2021-01-28-the-big-jewel/</loc>
+    <loc>https://NerdyDad.me/posts/2021-02-06-protecting-the-jewel/</loc>
+    <lastmod>2021-02-06T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/tags/user-administration/</loc>
+    <loc>https://NerdyDad.me/posts/2021-01-28-the-big-jewel/</loc>
+    <lastmod>2021-01-28T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/tags/virtualization/</loc>
+    <loc>https://NerdyDad.me/tags/virtualization/</loc>
+    <lastmod>2021-01-22T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/categories/virtualization/</loc>
+    <loc>https://NerdyDad.me/categories/virtualization/</loc>
+    <lastmod>2021-01-22T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/posts/2021-01-22-what-is-it/</loc>
+    <loc>https://NerdyDad.me/posts/2021-01-22-what-is-it/</loc>
+    <lastmod>2021-01-22T17:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://nerdydad.me/posts/2021-01-22-what-is-virtualization/</loc>
+    <loc>https://NerdyDad.me/posts/2021-01-22-what-is-virtualization/</loc>
+    <lastmod>2021-01-22T17:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://NerdyDad.me/about/</loc>
   </url>
 </urlset>

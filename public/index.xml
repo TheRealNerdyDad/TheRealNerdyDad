@@ -2,65 +2,159 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NerdyDad</title>
-    <link>http://nerdydad.me/</link>
+    
+    
+    
+    <link>https://NerdyDad.me/</link>
     <description>Recent content on NerdyDad</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://nerdydad.me/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Feb 2021 17:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://NerdyDad.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Creating A New User</title>
-      <link>http://nerdydad.me/posts/2021-02-06-creating-a-new-user/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/posts/2021-02-06-creating-a-new-user/</link>
+      <pubDate>Fri, 12 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/posts/2021-02-06-creating-a-new-user/</guid>
-      <description>Creating A New User User Management is important in any organization, especially when they have ActiveDirectory deployed in their environment. Any way of automation can be very helpful in saving time, reducing errors, and making sure that all of the tasks that are involved with creating a user are completed.
-I understand that this whole script will not suite everybody, but I know that there are pieces in here that are going to be more valuable to some than others.</description>
+      <guid>https://NerdyDad.me/posts/2021-02-06-creating-a-new-user/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Creating A New User#User Management is important in any organization, especially when they have ActiveDirectory deployed in their environment. Any way of automation can be very helpful in saving time, reducing errors, and making sure that all of the tasks that are involved with creating a user are completed.
+I understand that this whole script will not suite everybody, but I know that there are pieces in here that are going to be more valuable to some than others.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>Disable A User</title>
-      <link>http://nerdydad.me/posts/2021-02-19-disable-a-user/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/posts/2021-02-19-disable-a-user/</link>
+      <pubDate>Fri, 12 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/posts/2021-02-19-disable-a-user/</guid>
-      <description>Disable A User It’s hard to create a user, but its REALLY easy to disable a user’s account. That is exactly what this script does. Well…it doesn’t “disable” the user’s account, but it does make it impossible for the user to login to the network without help from IT. Basically, this script will ask 4 things from you. It will ask you who you are disabling, who their manager is, who you are, and a password to change the user’s account to.</description>
+      <guid>https://NerdyDad.me/posts/2021-02-19-disable-a-user/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Disable A User#It’s hard to create a user, but its REALLY easy to disable a user’s account. That is exactly what this script does. Well…it doesn’t “disable” the user’s account, but it does make it impossible for the user to login to the network without help from IT. Basically, this script will ask 4 things from you. It will ask you who you are disabling, who their manager is, who you are, and a password to change the user’s account to.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>Protecting The Jewel</title>
-      <link>http://nerdydad.me/posts/2021-02-06-protecting-the-jewel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/posts/2021-02-06-protecting-the-jewel/</link>
+      <pubDate>Sat, 06 Feb 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/posts/2021-02-06-protecting-the-jewel/</guid>
-      <description>Protecting The Jewel So, in the last post, we discussed the biggest asset IT can have, the data. But, does the Queen of England keep her jewels out for everybody to be able to touch? Nope. Do banks let people walk right into the vaults to touch all of the money? No. So, what do we need to do to protect the data?
-There are 2 big things that IT people do to protect their data, and they go hand-in-hand:</description>
+      <guid>https://NerdyDad.me/posts/2021-02-06-protecting-the-jewel/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Protecting The Jewel#So, in the last post, we discussed the biggest asset IT can have, the data. But, does the Queen of England keep her jewels out for everybody to be able to touch? Nope. Do banks let people walk right into the vaults to touch all of the money? No. So, what do we need to do to protect the data?
+There are 2 big things that IT people do to protect their data, and they go hand-in-hand:
+          
+        
+        </description>
     </item>
     
     <item>
       <title>The Big Jewel</title>
-      <link>http://nerdydad.me/posts/2021-01-28-the-big-jewel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/posts/2021-01-28-the-big-jewel/</link>
+      <pubDate>Thu, 28 Jan 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/posts/2021-01-28-the-big-jewel/</guid>
-      <description>The Big Jewel What is it? So, what is the biggest prized possession of IT? Is it the people? No. Is it the equipment? Not really.
-IT’s biggest asset is the data. The data could consist of a number of different things, as it pertains to the organization and how it operates. To a manufacturing organization, it could be the way they manufacture their product, or their list of customers or suppliers.</description>
+      <guid>https://NerdyDad.me/posts/2021-01-28-the-big-jewel/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          The Big Jewel#What is it?#So, what is the biggest prized possession of IT? Is it the people? No. Is it the equipment? Not really.
+IT’s biggest asset is the data. The data could consist of a number of different things, as it pertains to the organization and how it operates. To a manufacturing organization, it could be the way they manufacture their product, or their list of customers or suppliers.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>What is IT?</title>
-      <link>http://nerdydad.me/posts/2021-01-22-what-is-it/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://NerdyDad.me/posts/2021-01-22-what-is-it/</link>
+      <pubDate>Fri, 22 Jan 2021 17:00:00 -0500</pubDate>
       
-      <guid>http://nerdydad.me/posts/2021-01-22-what-is-it/</guid>
-      <description>What is IT? This is a question that is easy to answer, but the term “IT” (aka Information Technology) is misleading and doesn’t make sense. To better understand IT, we must apply it in a business situation for it to make sense. Don’t get me wrong. Technology is a great tool in our everyday lives that has definitely helped us. But to better understand the importance of technology, we need to see it in the light of business.</description>
+      <guid>https://NerdyDad.me/posts/2021-01-22-what-is-it/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          What is IT?#This is a question that is easy to answer, but the term “IT” (aka Information Technology) is misleading and doesn’t make sense. To better understand IT, we must apply it in a business situation for it to make sense. Don’t get me wrong. Technology is a great tool in our everyday lives that has definitely helped us. But to better understand the importance of technology, we need to see it in the light of business.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>What is Virtualization?</title>
-      <link>http://nerdydad.me/posts/2021-01-22-what-is-virtualization/</link>
+      <link>https://NerdyDad.me/posts/2021-01-22-what-is-virtualization/</link>
+      <pubDate>Fri, 22 Jan 2021 17:00:00 -0500</pubDate>
+      
+      <guid>https://NerdyDad.me/posts/2021-01-22-what-is-virtualization/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          What is Virtualization?#Virtualization is the abstraction of the operating system away from the hardware so that other operating systems may reside on the same hardware as the original operating system. The software that does the abstracting is called the hypervisor. It is not an operating system of itself. Instead, the hypervisor will gather the hardware logically and divide up that hardware as resources to the guest operating systems as needed.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://NerdyDad.me/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://nerdydad.me/posts/2021-01-22-what-is-virtualization/</guid>
-      <description>What is Virtualization? Virtualization is the abstraction of the operating system away from the hardware so that other operating systems may reside on the same hardware as the original operating system. The software that does the abstracting is called the hypervisor. It is not an operating system of itself. Instead, the hypervisor will gather the hardware logically and divide up that hardware as resources to the guest operating systems as needed.</description>
+      <guid>https://NerdyDad.me/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Describe yourself.
+          
+        
+        </description>
     </item>
     
   </channel>
