@@ -30,11 +30,11 @@ paginate = 5
 [languages]
   [languages.en]
     title = "NerdyDad"
-    subtitle = "A simple theme for Hugo"
+    subtitle = ""
     keywords = ""
     copyright = ""
     menuMore = "Show more"
-    writtenBy = "Written by"
+    writtenBy = ""
     readMore = "Read more"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
