@@ -2,6 +2,7 @@ name = "nerdydad-me-blog"
 compatibility_date = "2025-07-25"
 
 [build]
+command = "chmod +x ./build.sh"
 command = "./build.sh"
 
 [assets]
