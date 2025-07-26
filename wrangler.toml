@@ -1,0 +1,9 @@
+name = "nerdydad-me-blog'
+compatibility_date = "2025-07-25"
+
+[build]
+command = "./build.sh"
+
+[assets]
+directory = "./public"
+not_found_handling = "404-page"
