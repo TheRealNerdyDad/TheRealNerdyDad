@@ -42,10 +42,10 @@
 #  pageRef = "categories/awesome"
 #  weight = 20
 
-[[main]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
+#[[main]]
+#  name = "Categories"
+#  pageRef = "categories"
+#  weight = 20
 
 [[main]]
   name = "Tags"
@@ -61,7 +61,7 @@
   pageRef = "tags"
   weight = 30
 
-[[footer]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
+#[[footer]]
+#  name = "Categories"
+#  pageRef = "categories"
+#  weight = 20
