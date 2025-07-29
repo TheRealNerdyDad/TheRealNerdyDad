@@ -52,8 +52,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showRecentItems = 5
   showMoreLink = true
   showMoreLinkDest = "posts"
-  cardView = true
-  cardViewScreenWidth = true
+  cardView = false
+  cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
   disableHeroImageFilter = false # only used when layout equals hero
 
@@ -99,11 +99,11 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showViews = false
   showLikes = false
   showTableOfContents = true
-  showCards = true
+  showCards = false
   orderByWeight = false
   groupByYear = false
-  cardView = true
-  cardViewScreenWidth = true
+  cardView = false
+  cardViewScreenWidth = false
   constrainItemsWidth = false
 
 [sitemap]
@@ -117,7 +117,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showViews = false
   showLikes = false
   showTableOfContents = false
-  cardView = true
+  cardView = false
 
 [term]
   showHero = true
