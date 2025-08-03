@@ -15,7 +15,8 @@ tags:
   - Azure Cloud Shell
   - Azure Mobile App
 ---
-# Getting Started - Basics and Tools
+
+## Getting Started - Basics and Tools
 
 ## Introduction
 
@@ -73,7 +74,7 @@ Both Azure CLI and Azure PowerShell are cross-platform ([Windows](https://learn.
 
 [Azure Cloud Shell](https://azure.microsoft.com/en-us/get-started/azure-portal/cloud-shell/?msockid=2e6aa5289d1a6cd30f32b0bf991a6a59) is an interactive, browser-accessible shell used for managing Azure resources utilizing either Azure PowerShell or Azure CLI.   You must authenticate prior to using Azure Cloud Shell.
 
-You can use Azure Cloud Shell either at https://shell.azure.com or through the Azure Mobile App, which is coming up next.
+You can use Azure Cloud Shell either at <https://shell.azure.com> or through the Azure Mobile App, which is coming up next.
 
 ### Azure Mobile App
 
