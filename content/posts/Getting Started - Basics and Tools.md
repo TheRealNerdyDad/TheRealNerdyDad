@@ -7,7 +7,7 @@ tags:
   - Azure
   - AZ-104
   - 75daysToAZ104
-  - Module_1_-_Prerequisites_for_Azure_administrators
+  - Module 1 - Prerequisites for Azure administrators
   - Azure Portal
   - Azure PowerShell
   - Powershell
