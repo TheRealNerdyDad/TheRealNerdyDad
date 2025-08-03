@@ -17,7 +17,7 @@ title = "Welcome to NerdyDad.me"
 [params.author]
   name = "Keith Baldwin"
   email = "KeithBaldwin@NerdyDad.me"
-  image = "img/Azure-Unboxed.png"
+  image = "img/keith_baldwin.png"
   # imageQuality = 96
   headline = "Azure Unboxed: Hands-On Azure Training and Bicep Mastery"
   bio = "An Azure enthusiast sharing insights and Bicep-powered automation to make cloud simple and showcase real-world expertise."
