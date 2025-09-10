@@ -27,7 +27,7 @@ So, where do we start?   How about we start with the basics and answer the follo
 
 ### [What is Azure?](https://learn.microsoft.com/en-us/training/modules/tour-azure-portal/1-introduction)
 
-Microsoft's Azure is a cloud platfom that provides compute, storage, and networking resources to build cloud-hosted applications.   These resources can span across many different resources, such as full Virtual Machines (VMs), containers, or cloud-native apps; additional virtual disks for virtual machines, file servers as a service, or SQL as a service; or VPN gateways, networking groups, or load balancers.   There are many choices, but what determines what resources you will use depends on what you are trying to accomplish.
+Microsoft's Azure is a cloud platform that provides compute, storage, and networking resources to build cloud-hosted applications.   These resources can span across many different resources, such as full Virtual Machines (VMs), containers, or cloud-native apps; additional virtual disks for virtual machines, file servers as a service, or SQL as a service; or VPN gateways, networking groups, or load balancers.   There are many choices, but what determines what resources you will use depends on what you are trying to accomplish.
 
 ## [Tools At Hand](https://learn.microsoft.com/en-us/training/modules/tour-azure-portal/2-azure-management)
 
@@ -42,7 +42,7 @@ There are 4 tools that allows you to administer Azure resources:
 
 ### Azure Portal
 
-The [Azure Portal](https://portal.azure.com) is probably going to be the tool that you use the most.   It is a Graphical User Interface (GUI) typically used to carry out single tasks or to dig deeper into details of a resource or logs.  It can also be used to create resources through step-by-step procedures.   However, the Azure Portl does not natively allow you to automate repetitive tasks, such as creating multiple VMs.   The Azure Portal can be accessed from any modern, internet-connected web browser.
+The [Azure Portal](https://portal.azure.com) is probably going to be the tool that you use the most.   It is a Graphical User Interface (GUI) typically used to carry out single tasks or to dig deeper into details of a resource or logs.  It can also be used to create resources through step-by-step procedures.   However, the Azure Portal does not natively allow you to automate repetitive tasks, such as creating multiple VMs.   The Azure Portal can be accessed from any modern, internet-connected web browser.
 
 ### Azure PowerShell & Azure CLI
 
@@ -50,13 +50,13 @@ Azure PowerShell and Azure CLI are 2 tools that accomplish the same task.   Depe
 
 #### Azure PowerShell
 
-[PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.5) natively comes from Microsoft's Windows Servers, ever since Windows Server 2003 SP1 with version 1.0.   Today, non-Azure PowerShell is at version 7.5.   PowerShell utilizes a ```Verb-Noun``` naming comvention for its commands so that it is easier to understand what is happening in either the command line or in scripts.
+[PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.5) natively comes from Microsoft's Windows Servers, ever since Windows Server 2003 SP1 with version 1.0.   Today, non-Azure PowerShell is at version 7.5.   PowerShell utilizes a ```Verb-Noun``` naming convention for its commands so that it is easier to understand what is happening in either the command line or in scripts.
 
 ```powershell
 New-AzVM -ResourceGroupName "MyResourceGroup" -Name "TestVm" -Image "UbuntuLTS"
 ```
 
-[Azure PowerShell](https://learn.microsoft.com/en-us/powershell/azure/?view=azps-14.2.0) is simply regular PowerShell with the Azure modules always updated and included in your session, if you are accessing Azure PowerShell from an Azure Cloud Shell session.   Azure PowerShell is a better tool in comparison to the Azure Portal for either more complex tasks with either the Command Line Interface (CLI) or through a PowerShell script (*.ps1 file format) or for automatated/repetitive tasks through a PowerShell script.   It is more utilized by administrators with a Windows background for managing Azure resources as an iterative programming language, usually with some type of source control system, such as Git with GitHub, GitLab, or Azure Repositories.
+[Azure PowerShell](https://learn.microsoft.com/en-us/powershell/azure/?view=azps-14.2.0) is simply regular PowerShell with the Azure modules always updated and included in your session, if you are accessing Azure PowerShell from an Azure Cloud Shell session.   Azure PowerShell is a better tool in comparison to the Azure Portal for either more complex tasks with either the Command Line Interface (CLI) or through a PowerShell script (*.ps1 file format) or for automated/repetitive tasks through a PowerShell script.   It is more utilized by administrators with a Windows background for managing Azure resources as an iterative programming language, usually with some type of source control system, such as Git with GitHub, GitLab, or Azure Repositories.
 
 Azure PowerShell can be utilized directly on your computer ([Windows](https://learn.microsoft.com/en-us/powershell/azure/install-azps-windows?view=azps-14.2.0), [MacOS](https://learn.microsoft.com/en-us/powershell/azure/install-azps-macos?view=azps-14.2.0), or [Linux](https://learn.microsoft.com/en-us/powershell/azure/install-azps-linux?view=azps-14.2.0)), if you already have PowerShell installed and the [Azure module imported](https://learn.microsoft.com/en-us/powershell/azure/install-azure-powershell?view=azps-14.2.0).
 
@@ -78,7 +78,7 @@ You can use Azure Cloud Shell either at <https://shell.azure.com> or through the
 
 ### Azure Mobile App
 
-[Azure Mobile App](https://azure.microsoft.com/en-us/get-started/azure-portal/mobile-app/) is a mobile app tha can be installed on either [iOS](https://itunes.apple.com/us/app/microsoft-azure/id1219013620?ls=1&mt=8) or [Android](https://play.google.com/store/apps/details?id=com.microsoft.azure) and is used by the Azure adminsitrator that is away from their computer but still able to manage and monitor their Azure resources.
+[Azure Mobile App](https://azure.microsoft.com/en-us/get-started/azure-portal/mobile-app/) is a mobile app tha can be installed on either [iOS](https://itunes.apple.com/us/app/microsoft-azure/id1219013620?ls=1&mt=8) or [Android](https://play.google.com/store/apps/details?id=com.microsoft.azure) and is used by the Azure administrator that is away from their computer but still able to manage and monitor their Azure resources.
 
 Some of the features that the Azure Mobile App includes is:
 

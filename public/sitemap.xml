@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/getting-started---basics-and-tools/</loc>
-    <lastmod>2025-07-28T13:00:00-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-07-28T13:00:00-06:00</lastmod>
+    <lastmod>2025-09-10T13:00:00-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-10T13:00:00-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/getting-started---basics-and-tools/</loc>
     <lastmod>2025-07-28T13:00:00-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
