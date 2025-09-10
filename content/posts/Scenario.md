@@ -1,11 +1,8 @@
----
-title: "Scenario"
-publishDate: 2025-09-10T13:00:00-06:00
-toc: false
-images:
-tags:
-  - 
----
++++
+date = '2025-09-10T17:19:50-05:00'
+draft = false
+title = 'Scenario'
++++
 
 ## Scenario
 

@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Welcome to NerdyDad.me</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://nerdydad.me/tags/</link>
     <description>Recent content in Tags on Welcome to NerdyDad.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>KeithBaldwin@NerdyDad.me (Keith Baldwin)</managingEditor>
     <webMaster>KeithBaldwin@NerdyDad.me (Keith Baldwin)</webMaster>
     <copyright>© 2025 Keith Baldwin</copyright>
-    <lastBuildDate>Mon, 28 Jul 2025 13:00:00 -0600</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jul 2025 13:00:00 -0600</lastBuildDate><atom:link href="https://nerdydad.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>75daysToAZ104</title>
-      <link>http://localhost:1313/tags/75daystoaz104/</link>
+      <link>https://nerdydad.me/tags/75daystoaz104/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/tags/75daystoaz104/</guid>
+      <guid>https://nerdydad.me/tags/75daystoaz104/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AZ-104</title>
-      <link>http://localhost:1313/tags/az-104/</link>
+      <link>https://nerdydad.me/tags/az-104/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/tags/az-104/</guid>
+      <guid>https://nerdydad.me/tags/az-104/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Azure</title>
-      <link>http://localhost:1313/tags/azure/</link>
+      <link>https://nerdydad.me/tags/azure/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/tags/azure/</guid>
+      <guid>https://nerdydad.me/tags/azure/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Azure CLI</title>
-      <link>http://localhost:1313/tags/azure-cli/</link>
+      <link>https://nerdydad.me/tags/azure-cli/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/tags/azure-cli/</guid>
+      <guid>https://nerdydad.me/tags/azure-cli/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Azure Cloud Shell</title>
-      <link>http://localhost:1313/tags/azure-cloud-shell/</link>
+      <link>https://nerdydad.me/tags/azure-cloud-shell/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/tags/azure-cloud-shell/</guid>
+      <guid>https://nerdydad.me/tags/azure-cloud-shell/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Azure Mobile App</title>
-      <link>http://localhost:1313/tags/azure-mobile-app/</link>
+      <link>https://nerdydad.me/tags/azure-mobile-app/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/tags/azure-mobile-app/</guid>
+      <guid>https://nerdydad.me/tags/azure-mobile-app/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Azure Portal</title>
-      <link>http://localhost:1313/tags/azure-portal/</link>
+      <link>https://nerdydad.me/tags/azure-portal/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/tags/azure-portal/</guid>
+      <guid>https://nerdydad.me/tags/azure-portal/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Azure PowerShell</title>
-      <link>http://localhost:1313/tags/azure-powershell/</link>
+      <link>https://nerdydad.me/tags/azure-powershell/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/tags/azure-powershell/</guid>
+      <guid>https://nerdydad.me/tags/azure-powershell/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Module 1 - Prerequisites for Azure Administrators</title>
-      <link>http://localhost:1313/tags/module-1---prerequisites-for-azure-administrators/</link>
+      <link>https://nerdydad.me/tags/module-1---prerequisites-for-azure-administrators/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/tags/module-1---prerequisites-for-azure-administrators/</guid>
+      <guid>https://nerdydad.me/tags/module-1---prerequisites-for-azure-administrators/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Powershell</title>
-      <link>http://localhost:1313/tags/powershell/</link>
+      <link>https://nerdydad.me/tags/powershell/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/tags/powershell/</guid>
+      <guid>https://nerdydad.me/tags/powershell/</guid>
       <description></description>
       
     </item>

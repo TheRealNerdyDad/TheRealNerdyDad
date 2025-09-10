@@ -2,31 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Welcome to NerdyDad.me</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://nerdydad.me/posts/</link>
     <description>Recent content in Posts on Welcome to NerdyDad.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>KeithBaldwin@NerdyDad.me (Keith Baldwin)</managingEditor>
     <webMaster>KeithBaldwin@NerdyDad.me (Keith Baldwin)</webMaster>
     <copyright>© 2025 Keith Baldwin</copyright>
-    <lastBuildDate>Wed, 10 Sep 2025 13:00:00 -0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Sep 2025 17:19:50 -0500</lastBuildDate><atom:link href="https://nerdydad.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Scenario</title>
+      <link>https://nerdydad.me/posts/scenario/</link>
+      <pubDate>Wed, 10 Sep 2025 17:19:50 -0500</pubDate>
+      <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
+      <guid>https://nerdydad.me/posts/scenario/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Getting Started - Basics and Tools</title>
-      <link>http://localhost:1313/posts/getting-started---basics-and-tools/</link>
+      <link>https://nerdydad.me/posts/getting-started---basics-and-tools/</link>
       <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/posts/getting-started---basics-and-tools/</guid>
+      <guid>https://nerdydad.me/posts/getting-started---basics-and-tools/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Post 0 - The setup</title>
-      <link>http://localhost:1313/posts/2025-02-23---post-0---the-setup/</link>
+      <link>https://nerdydad.me/posts/2025-02-23---post-0---the-setup/</link>
       <pubDate>Sat, 22 Feb 2025 13:00:00 -0600</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>http://localhost:1313/posts/2025-02-23---post-0---the-setup/</guid>
+      <guid>https://nerdydad.me/posts/2025-02-23---post-0---the-setup/</guid>
       <description></description>
       
     </item>
