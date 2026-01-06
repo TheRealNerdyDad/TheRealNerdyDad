@@ -29,8 +29,8 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          # We update the project-name here to match the screenshot
-          command: pages deploy public --project-name=nerdydad-me-blog --branch=main --commit-dirty=true
+          # Explicitly pointing to the account and project
+          command: pages deploy public --project-name="nerdydad-me-blog" --branch="main" --commit-dirty=true
         env:
           CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
           CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
