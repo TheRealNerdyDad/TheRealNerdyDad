@@ -25,11 +25,12 @@ jobs:
       - name: Build Site
         run: hugo --gc --minify
 
-      - name: Publish to Cloudflare Pages (Global Auth Test)
+      - name: Publish to Cloudflare Pages (Wrangler)
         uses: cloudflare/wrangler-action@v3
         with:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy public --project-name=nerdydad-me-blog --branch=main
+          # We update the project-name here to match the screenshot
+          command: pages deploy public --project-name=nerdydad-me-blog --branch=main --commit-dirty=true
         env:
           CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
           CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
