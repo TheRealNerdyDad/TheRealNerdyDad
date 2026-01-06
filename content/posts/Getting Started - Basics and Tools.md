@@ -1,6 +1,7 @@
 ---
 title: "Getting Started - Basics and Tools"
 publishDate: 2025-07-28T13:00:00-06:00
+draft: true
 toc: false
 images: 
 tags:

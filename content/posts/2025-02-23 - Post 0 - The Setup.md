@@ -1,6 +1,7 @@
 ---
 title: "Post 0 - The setup"
 publishDate: 2025-02-22T13:00:00-06:00
+draft: true
 toc: false
 images:
 tags:
