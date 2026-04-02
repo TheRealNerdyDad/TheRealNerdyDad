@@ -2,7 +2,7 @@
 date = '2026-04-02'
 draft = false
 title = 'Project Apex Shield: Implementing Regional Guardrails with Bicep'
-tags: ["Azure", "Bicep", "SRE", "Governance"]
+tags = ["Azure", "Bicep", "SRE", "Governance"]
 +++
 
 # Project Apex Shield: Implementing Regional Guardrails with Bicep
