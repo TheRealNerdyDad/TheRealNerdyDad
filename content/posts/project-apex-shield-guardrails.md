@@ -41,3 +41,8 @@ resource regionPolicy 'Microsoft.Authorization/policyAssignments@2024-05-01' = {
   }
 }
 ```
+***
+
+## Technical Evidence
+* **Infrastructure Source** - [View the Bicep template on GitHub](https://github.com/TheRealNerdyDad/azure-sre-lab/blob/main/infra/region-policy.bicep)
+* **Specific Commit** - [Build Milestones: Regional Guardrails (Commit: 8ce3a5a)](https://github.com/TheRealNerdyDad/azure-sre-lab/commit/8ce3a5a)
