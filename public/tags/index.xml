@@ -9,7 +9,47 @@
     <managingEditor>KeithBaldwin@NerdyDad.me (Keith Baldwin)</managingEditor>
     <webMaster>KeithBaldwin@NerdyDad.me (Keith Baldwin)</webMaster>
     <copyright>© 2026 Keith Baldwin</copyright>
-    <atom:link href="https://nerdydad.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nerdydad.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Azure</title>
+      <link>https://nerdydad.me/tags/azure/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
+      <guid>https://nerdydad.me/tags/azure/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bicep</title>
+      <link>https://nerdydad.me/tags/bicep/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
+      <guid>https://nerdydad.me/tags/bicep/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Governance</title>
+      <link>https://nerdydad.me/tags/governance/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
+      <guid>https://nerdydad.me/tags/governance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SRE</title>
+      <link>https://nerdydad.me/tags/sre/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
+      <guid>https://nerdydad.me/tags/sre/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

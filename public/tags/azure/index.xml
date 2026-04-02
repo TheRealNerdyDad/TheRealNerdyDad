@@ -8,25 +8,15 @@
     <language>en</language>
     <managingEditor>KeithBaldwin@NerdyDad.me (Keith Baldwin)</managingEditor>
     <webMaster>KeithBaldwin@NerdyDad.me (Keith Baldwin)</webMaster>
-    <copyright>© 2025 Keith Baldwin</copyright>
-    <lastBuildDate>Mon, 28 Jul 2025 13:00:00 -0600</lastBuildDate><atom:link href="https://nerdydad.me/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Keith Baldwin</copyright>
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nerdydad.me/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Getting Started - Basics and Tools</title>
-      <link>https://nerdydad.me/posts/getting-started---basics-and-tools/</link>
-      <pubDate>Mon, 28 Jul 2025 13:00:00 -0600</pubDate>
+      <title>Project Apex Shield: Implementing Regional Guardrails with Bicep</title>
+      <link>https://nerdydad.me/posts/project-apex-shield-guardrails/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>https://nerdydad.me/posts/getting-started---basics-and-tools/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Post 0 - The setup</title>
-      <link>https://nerdydad.me/posts/2025-02-23---post-0---the-setup/</link>
-      <pubDate>Sat, 22 Feb 2025 13:00:00 -0600</pubDate>
-      <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>https://nerdydad.me/posts/2025-02-23---post-0---the-setup/</guid>
+      <guid>https://nerdydad.me/posts/project-apex-shield-guardrails/</guid>
       <description></description>
       
     </item>

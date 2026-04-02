@@ -9,7 +9,17 @@
     <managingEditor>KeithBaldwin@NerdyDad.me (Keith Baldwin)</managingEditor>
     <webMaster>KeithBaldwin@NerdyDad.me (Keith Baldwin)</webMaster>
     <copyright>© 2026 Keith Baldwin</copyright>
-    <lastBuildDate>Mon, 05 Jan 2026 20:37:21 -0600</lastBuildDate><atom:link href="https://nerdydad.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nerdydad.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Project Apex Shield: Implementing Regional Guardrails with Bicep</title>
+      <link>https://nerdydad.me/posts/project-apex-shield-guardrails/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
+      <guid>https://nerdydad.me/posts/project-apex-shield-guardrails/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

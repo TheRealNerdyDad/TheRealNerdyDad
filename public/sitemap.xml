@@ -4,13 +4,19 @@
 
   <url>
     <loc>https://nerdydad.me/posts/</loc>
-    <lastmod>2026-01-05T20:37:21-06:00</lastmod>
+    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nerdydad.me/posts/project-apex-shield-guardrails/</loc>
+    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nerdydad.me/</loc>
-    <lastmod>2026-01-05T20:37:21-06:00</lastmod>
+    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
