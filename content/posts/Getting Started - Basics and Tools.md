@@ -1,13 +1,12 @@
 ---
 title: "Getting Started - Basics and Tools"
-publishDate: 2025-07-28T13:00:00-06:00
+publishDate: 2026-07-08T13:00:00-06:00
 draft: true
 toc: false
 images: 
 tags:
   - Azure
   - AZ-104
-  - 75daysToAZ104
   - Module 1 - Prerequisites for Azure administrators
   - Azure Portal
   - Azure PowerShell

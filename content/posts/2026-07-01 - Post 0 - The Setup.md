@@ -1,21 +1,20 @@
 ---
 title: "Post 0 - The setup"
-publishDate: 2025-02-22T13:00:00-06:00
+publishDate: 2026-07-01T13:00:00-06:00
 draft: true
 toc: false
 images:
 tags:
   - Azure
   - AZ-104
-  - 75daysToAZ104
 ---
 ## Introduction
 
-As more companies are migrating their workloads to cloud systems, it seems imperative to learn the new resources.  Since I come from a predominantly Microsoft background, learning PowerShell, ActiveDirectory, and Windows Server, it seems natural to me to, shed the VMware knowledge and learn a new platform.   Therefore, I have decided to learn Microsoft's Azure platform and offerings.
+As more companies are migrating their workloads to cloud systems, it seems imperative to learn these new resources.  Since I come from a predominantly Microsoft background, learning PowerShell, ActiveDirectory, and Windows Server, it seems natural to me to, shed the VMware knowledge and learn a new platform.   Therefore, I have decided to learn Microsoft's Azure platform and offerings.
 
 ### Goals
 
-My goal is to gain the [Microsoft Azure AZ-104](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification) certification by ~~June 30th, 2025~~ December 31st, 2025.   I will study ~~over the course of 15 weeks of studying with June~~ for however long it takes, planning to take the test in December being my time to refresh and prepare to ace the test.   Every weekday, I will spend 1 hour studying a new topic in each of the 6 domains of the AZ-104 test.
+My goal is to gain the [Microsoft Azure AZ-104](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification) certification.
 
 ### Study Material
 
@@ -37,11 +36,11 @@ Oh...right.  I get distracted and go on tangents.
 
 #### The Plan
 
-Every day, I plan on making a blog post containing what I learned for that day.   It will not be as extensive as Microsoft Learn's material, but will be using it more for study notes and tying pieces together as we go through these different domains such as User Governance, Virtual Machines, Networking, and Storage Accounts.
+Every week, I plan on making a blog post containing what I learned for the week.   It will not be as extensive as Microsoft Learn's material, but will be using it more for study notes and tying pieces together as we go through these different domains such as User Governance, Virtual Machines, Networking, and Storage Accounts.
 
 Some posts will contain snippets of PowerShell, some Azure CLI, some Bash (for you Linux folks), some Bicep code, and some will have no code at all.  I will show different applications (VSCode, PowerShell, and Azure Storage Explorer), install and usage.
 
-I will be referencing the pages that I am studying that day and will share my posts on social media, mainly [LinkedIn](https://www.linkedin.com/in/jkeithbaldwin/), [X](https://twitter.com/TheRealNerdyDad) (formerly known as Twitter), and on [GitHub](https://github.com/TheRealNerdyDad).   These posts will have the hashtag #75daysToAZ104 with what day we're in of the 75 days to help track my progress, taking weekends (Saturdays and Sundays) off for rest.
+I will be referencing the pages that I am studying that day and will share my posts on social media, mainly [LinkedIn](https://www.linkedin.com/in/jkeithbaldwin/), and on [GitHub](https://github.com/TheRealNerdyDad).   These posts will have the hashtag #75daysToAZ104 with what day we're in of the 75 days to help track my progress, taking weekends (Saturdays and Sundays) off for rest.
 
 #### Post-AZ-104
 
