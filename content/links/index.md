@@ -8,6 +8,6 @@ title = 'Connect with Keith'
 
 ## [{{< icon "github" >}} GitHub](https://GitHub.com/TheRealNerdyDad)
 
-## [{{< icon "file-lines" >}} J. Keith Baldwin's Resume](https://NerdyDad.me/Resume)
+## [{{< icon "file-lines" >}} J. Keith Baldwin's Resume](https://NerdyDad.me/resume)
 
 ### *Resume PDF with direct contact information is available upon request through a LinkedIn message.*
