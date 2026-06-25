@@ -2,21 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to NerdyDad.me</title>
-    <link>https://nerdydad.me/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Welcome to NerdyDad.me</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-US</language>
     <managingEditor>KeithBaldwin@NerdyDad.me (Keith Baldwin)</managingEditor>
     <webMaster>KeithBaldwin@NerdyDad.me (Keith Baldwin)</webMaster>
     <copyright>© 2026 Keith Baldwin</copyright>
-    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nerdydad.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Project Apex Shield: Implementing Regional Guardrails with Bicep</title>
-      <link>https://nerdydad.me/posts/project-apex-shield-guardrails/</link>
+      <link>http://localhost:1313/posts/project-apex-shield-guardrails/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
       <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
-      <guid>https://nerdydad.me/posts/project-apex-shield-guardrails/</guid>
+      <guid>http://localhost:1313/posts/project-apex-shield-guardrails/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Connect with Keith</title>
+      <link>http://localhost:1313/links/</link>
+      <pubDate>Sun, 01 Mar 2026 13:00:00 -0600</pubDate>
+      <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
+      <guid>http://localhost:1313/links/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>J. Keith Baldwin&#39;s Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Sun, 01 Mar 2026 13:00:00 -0600</pubDate>
+      <author>KeithBaldwin@NerdyDad.me (Keith Baldwin)</author>
+      <guid>http://localhost:1313/resume/</guid>
       <description></description>
       
     </item>

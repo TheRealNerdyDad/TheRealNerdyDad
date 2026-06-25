@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+locale = "en-US"
+label = "English"
 weight = 1
 title = "Welcome to NerdyDad.me"
 

@@ -1,5 +1,7 @@
 +++
-title = 'J. Keith Baldwin's Resume'
+publishDate = 2026-03-01T13:00:00-06:00
+draft = false
+title = "J. Keith Baldwin's Resume"
 +++
 # **J. Keith Baldwin**
 
