@@ -35,8 +35,8 @@
 
 ### **EARLY CAREER HISTORY**
 
-**Robert Half Technology | Technical Consultant (Contract) | Aug 2014 – Feb 2015**
-**East Texas Lighthouse for the Blind | Network Administrator | Aug 2013 – May 2014**
+**Robert Half Technology | Technical Consultant (Contract) | Aug 2014 – Feb 2015**  
+**East Texas Lighthouse for the Blind | Network Administrator | Aug 2013 – May 2014**  
 **U.S. Department of Energy (ORISE) | IT Specialist (Intern) | Jun 2012 – Aug 2013**
 
 ---
